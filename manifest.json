@@ -1,0 +1,19 @@
+{
+    "short_name": "創優",
+    "name": "創優",
+    "icons": [
+        {
+            "src": "./picture/192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./picture/512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#FFFFFF"
+}
