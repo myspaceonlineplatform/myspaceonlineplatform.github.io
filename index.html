@@ -23,6 +23,10 @@
 		<link rel="apple-touch-icon" href="./picture/192x192.png">
 		<link rel="manifest" href="./manifest.json">
 		<script>
+			xhr = new XMLHttpRequest()
+			xhr.open("GET", "")
+			xhr.setRequestHeader("Bypass-Tunnel-Reminder", true)
+			xhr.send()
 			if ("serviceWorker" in navigator) {
 				navigator.serviceWorker.register("./sw.js")
 			}
